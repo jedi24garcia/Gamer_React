@@ -1,7 +1,35 @@
-.ContactDetails h2 {
+.ContactDetails h1 {
     text-align: center;    
 }
-.ContactDetails p {
+.InfoDetails {
+    border-radius: 10px;
+    transition: transform 0.2s;
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+}
+.InfoDetails p {
     text-align: center; 
-    color: whitesmoke;   
-}  
+    color: whitesmoke; 
+    border-style: solid;
+    border-color: #00f5cc;
+    border-radius: 20px; 
+    padding: 2em;
+    margin: 10px;
+}
+ .ContactSales {
+    border-radius: 10px;
+    transition: transform 0.2s;
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+}
+.ContactSales p {
+    text-align: center; 
+    color: whitesmoke; 
+    border-style: solid;
+    border-color: #00f5cc;
+    border-radius: 20px; 
+    padding: 2em;
+    margin: 10px;
+}
