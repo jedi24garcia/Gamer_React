@@ -1,0 +1,9 @@
+.menu {
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1050px;
+    margin: auto;
+}

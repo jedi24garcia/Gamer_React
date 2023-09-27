@@ -1,0 +1,36 @@
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-style: solid;
+    background-color: #00f5cc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #05089b;
+}
+.result {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    /* background-image: url("images/consoles4.jpg"); */
+    background-image: url("images/consoles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    max-width: 500px;
+}
+.result:hover {
+    transform: scale(1.05);
+}
+.result h3 {
+    padding: 10px;
+    text-align: center;
+    background-color: #00d8f5;
+    margin: 0;
+}
+.result p {
+    padding: 20px;
+    color: whitesmoke;
+}

@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+}
+header h1 {
+  padding: 20px;
+}
+nav {
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+  border-style: solid;
+  border-color: #00f5cc;
+  border-radius: 20px;
+  padding: 20px;
+}
