@@ -8,6 +8,7 @@ function Home1() {
       <nav>
         <Link to="">Home</Link>
         <Link to="/menu">Menu</Link>
+        <Link to="/logIn">Log In/Sign Up</Link>
         <Link to="/contacts">Contact</Link>
       </nav>
     </header>
