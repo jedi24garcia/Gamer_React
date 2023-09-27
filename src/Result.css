@@ -14,7 +14,6 @@ button:hover {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.2s;
-    /* background-image: url("images/consoles4.jpg"); */
     background-image: url("images/consoles.jpg");
     background-repeat: no-repeat;
     background-size: cover;

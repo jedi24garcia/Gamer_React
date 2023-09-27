@@ -1,3 +1,18 @@
-.UserLogIn {
+.SignUpSign {
     text-align: center;
+    padding: 10px;
+    display: grid; 
+}
+.SignForm {
+    padding: 2em;
+}
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    border-style: solid;
+    border-color: #00f5cc;
+    border-radius: 20px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f100;
+    color: white;
 }
