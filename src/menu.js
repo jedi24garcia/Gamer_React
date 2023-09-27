@@ -2,7 +2,6 @@ import React from 'react';
 import './menu.css'
 import Result from './Result';
 
-
 const results = [
   {id: 1, name: "Playstation 3", price: "$215", category: "Console"},
   {id: 1, name: "Playstation 4", price: "$448", category: "Console"},
