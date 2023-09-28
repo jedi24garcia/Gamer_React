@@ -2,6 +2,9 @@ import React from 'react';
 import './contact.css';
 
 function Contacts () {
+    const contactAlert = () => {
+        alert("We'll get touch as soon as possible");
+    };
     return (
         <div className="ContactDetails">
             <h1>Contact Us</h1>
@@ -13,7 +16,7 @@ function Contacts () {
                 </p>
                 <div className="ContactSales">
                     <h2>Please feel free to talk to our sales team</h2>
-                    <p><strong>04 555 7777</strong></p>
+                    <button onClick={contactAlert}>04 555 7777</button>
                 </div>
             </div>
         </div>

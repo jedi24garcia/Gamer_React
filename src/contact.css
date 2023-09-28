@@ -32,6 +32,6 @@
     border-style: solid;
     border-radius: 20px;
 }
-.ContactSales p:hover {
+.ContactSales button:hover {
     transform: scale(1.05);
 } 

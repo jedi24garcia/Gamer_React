@@ -16,3 +16,13 @@ nav {
   border-radius: 20px;
   padding: 20px;
 }
+footer nav{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  background-color: #00f5cc;
+  border-radius: 5px;
+}

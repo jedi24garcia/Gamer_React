@@ -21,11 +21,11 @@ function Menu() {
   return (
     <div className="MenuTitle">
       <h1>Shop</h1>
-      <div className="menu">
-        {results.map(result=> (
-          <Result key={results.name}item={result}/>
-        ))}
-      </div>
+        <div className="menu">
+          {results.map(result=> (
+            <Result key={results.name}item={result}/>
+          ))}
+        </div>
     </div>
   );
 }
