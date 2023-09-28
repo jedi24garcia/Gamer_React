@@ -3,7 +3,7 @@ import './contact.css';
 
 function Contacts () {
     const contactAlert = () => {
-        alert("We'll get touch as soon as possible");
+        alert("We'll get in touch as soon as possible");
     };
     return (
         <div className="ContactDetails">

@@ -16,6 +16,16 @@ nav {
   border-radius: 20px;
   padding: 20px;
 }
+nav a {
+  border-style: solid;
+  border-color: #011a3a;
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
+nav a:hover {
+  transform: scale(1.05);
+}
 footer nav{
   position: fixed;
   bottom: 0;
