@@ -1,0 +1,16 @@
+.freeTitle {
+    padding: 10px;
+    justify-content: center;
+    max-width: 1050px;
+    margin: auto;
+}
+.freeButtons button {
+    border-style: solid;
+    border-color: #00f5cc;;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.freeTitle p:hover {
+    transform: scale(1.05);
+}

@@ -8,7 +8,8 @@ button {
     transition: background-color 0.3s;
 }
 button:hover {
-    background-color: #05089b;
+    background-color: #0764a1a1;
+    transform: scale(1.05);
 }
 .result {
     border-radius: 10px;
