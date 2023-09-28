@@ -46,6 +46,24 @@ const WurmOnline = () => {
 const WarLander = () => {
     alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11117 to install");
 };
+const GuildWars = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11118 to install");
+};
+const TowerOfFantasy = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11119 to install");
+};
+const BattleRite = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11120 to install");
+};
+const ArchAge = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11121 to install");
+};
+const Paragon = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11122 to install");
+};
+const Snap = () => {
+    alert("Please download using winget install “APP-NAME-1” -e && winget install “APP-NAME-2” -e code 11123 to install");
+};
 
 function FreePlay() {
     return (
@@ -67,6 +85,12 @@ function FreePlay() {
                 <button onClick={Century101}>Century 101</button>
                 <button onClick={WurmOnline}>Wurm Online</button>
                 <button onClick={WarLander}>Warlander</button>
+                <button onClick={GuildWars}>Guild Wars</button>
+                <button onClick={TowerOfFantasy}>Tower Of Fantasy</button>
+                <button onClick={BattleRite}>BATTLERITE</button>
+                <button onClick={ArchAge}>ArchAge</button>
+                <button onClick={Paragon}>Paragon</button>
+                <button onClick={Snap}>Marvel Snap</button>
             </div>
         </div>
     );
