@@ -12,7 +12,8 @@ function Contacts () {
                 For sponsorship, branding, and marketing, please email christina@gamertech.co.nz<br/>
                 </p>
                 <div className="ContactSales">
-                    <p>Talk to a member of our Sales team</p>
+                    <h2>Please feel free to talk to our sales team</h2>
+                    <p><strong>04 555 7777</strong></p>
                 </div>
             </div>
         </div>

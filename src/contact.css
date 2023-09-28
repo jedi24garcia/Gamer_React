@@ -6,7 +6,6 @@
     transition: transform 0.2s;
     max-width: 1050px;
     margin: auto;
-    display: flex;
 }
 .InfoDetails p {
     text-align: center; 
@@ -17,14 +16,10 @@
     padding: 2em;
     margin: 10px;
 }
- .ContactSales {
-    border-radius: 10px;
-    transition: transform 0.2s;
-    max-width: 1050px;
-    margin: auto;
-    display: flex;
+ .ContactSales h2 {
+    text-align: center;
 }
-.ContactSales p {
+.ContactSales {
     text-align: center; 
     color: whitesmoke; 
     border-style: solid;
@@ -33,3 +28,10 @@
     padding: 2em;
     margin: 10px;
 }
+.ContactSales p {
+    border-style: solid;
+    border-radius: 20px;
+}
+.ContactSales p:hover {
+    transform: scale(1.05);
+} 
