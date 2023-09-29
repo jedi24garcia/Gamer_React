@@ -7,9 +7,11 @@ import Garena from './gamecomponents/Garena';
 const API_URL = "https://www.omdbapi.com/?apikey=bc50c245";
 
 function Home() { 
+  // variables to manage search term game data
    const [searchGameTerm, setSearchGameTerm] = useState(""); 
    const [games, setGames] = useState([]);
    
+   //initial search e.g God of War 
    useEffect(() => {
     fetchGames("God of War");
  }, []);
@@ -21,6 +23,7 @@ function Home() {
       setGames(data.Search);
    };
    
+   //handles the enter key press for searching
    const pressEnter = (event) => {
     if (event.key === "Enter") {
       fetchGames(searchGameTerm);
@@ -41,6 +44,7 @@ function Home() {
         <button onClick={() => fetchGames(searchGameTerm)}>Search</button>
       </div>
 
+      {/* displays different content based on length of the 'games' array */}
       {games?.length > 0 ? (
         <div className="container">
           {games.map((game) => (
